@@ -1,0 +1,25 @@
+/* TodoItem.module.css */
+
+.item {
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  background-image: url("../assets/postit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  list-style: none;
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  font-size: 20px; 
+  text-align: center; 
+}

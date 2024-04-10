@@ -1,0 +1,59 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  z-index: 2;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Aggiungi lo sfondo bianco opaco solo al form */
+  width: 40rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px; /* Aggiungi bordi arrotondati per uno stile più piacevole */
+}
+
+.form label {
+  display: block;
+  font-weight: bold;
+  color: #f19f07;
+  margin-bottom: 0.5rem;
+  font-size: xx-large;
+}
+
+.form span {
+  display: flex;
+}
+
+.form button {
+  font: inherit;
+  background-color: #f3e352;
+  border: 1px solid #f19f07;
+  color: white;
+  padding: 0.5rem 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: #f17007;
+  border-color: #f16107;
+  font-size: x-large;
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    width: 40%;
+  }
+
+  .form label {
+    font-size: small;
+  }
+  .form button {
+    font-size: small;
+  }
+}
